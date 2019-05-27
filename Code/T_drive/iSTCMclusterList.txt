@@ -1,0 +1,712 @@
+%%% For cluster id 0 member size 7
+M ID 8 MG size 4
+2251	1257	1703	9009	
+8542	10338	9693	
+End one cluster 
+%%% For cluster id 1 member size 8
+M ID 11 MG size 3
+2306	5797	2901	
+3276	3198	3391	6841	7773	
+End one cluster 
+%%% For cluster id 2 member size 6
+M ID 4 MG size 5
+8080	9199	3792	1011	10215	
+1993	
+End one cluster 
+%%% For cluster id 3 member size 4
+M ID 6 MG size 3
+5051	8007	1982	
+5801	
+End one cluster 
+%%% For cluster id 4 member size 5
+M ID 0 MG size 5
+3304	1106	4104	9151	6513	
+
+End one cluster 
+%%% For cluster id 5 member size 5
+M ID 1 MG size 4
+5327	2842	5803	2904	
+8015	
+End one cluster 
+%%% For cluster id 6 member size 9
+M ID 3 MG size 8
+3813	4530	5602	9370	9736	7707	7456	3846	
+8553	
+End one cluster 
+%%% For cluster id 7 member size 4
+M ID 2 MG size 4
+6216	7766	9069	6072	
+
+End one cluster 
+%%% For cluster id 8 member size 5
+M ID 10 MG size 5
+1274	3295	6589	3973	8123	
+
+End one cluster 
+%%% For cluster id 9 member size 8
+M ID 9 MG size 5
+4939	9394	7780	1979	5122	
+1129	5546	2285	
+End one cluster 
+%%% For cluster id 10 member size 10
+M ID 5 MG size 10
+9341	7067	4095	4123	2843	3881	6364	4983	4985	8985	
+
+End one cluster 
+%%% For cluster id 11 member size 6
+M ID 7 MG size 6
+7869	9357	4666	10203	1211	9328	
+
+End one cluster 
+####################### End snapshot  1  #############################
+%%% For cluster id 0 member size 20
+M ID 4 MG size 5
+3792	1011	10215	8080	1703	
+M ID 5 MG size 9
+4095	2843	3881	6364	4985	8985	9341	5488	1257	
+2251	9199	9009	1982	1993	7707	
+End one cluster 
+%%% For cluster id 1 member size 3
+M ID 6 MG size 3
+8007	5051	7766	
+
+End one cluster 
+%%% For cluster id 2 member size 18
+M ID 0 MG size 6
+1106	3304	6513	7067	4123	4983	
+M ID 3 MG size 7
+3813	9370	9736	7773	4104	9693	8123	
+3846	8553	5602	2306	9151	
+End one cluster 
+%%% For cluster id 3 member size 4
+M ID 1 MG size 4
+5327	2842	5803	2904	
+
+End one cluster 
+%%% For cluster id 4 member size 3
+M ID 2 MG size 3
+9069	6072	6216	
+
+End one cluster 
+%%% For cluster id 5 member size 6
+M ID 10 MG size 4
+3295	6589	1274	3973	
+6841	3276	
+End one cluster 
+%%% For cluster id 6 member size 6
+M ID 9 MG size 5
+9394	7780	1979	4939	5122	
+1129	
+End one cluster 
+%%% For cluster id 7 member size 9
+M ID 7 MG size 8
+9357	4666	7869	10203	1211	9328	2474	5801	
+4063	
+End one cluster 
+%%% For cluster id 8 member size 3
+M ID 13 MG size 3
+2285	8542	5546	
+
+End one cluster 
+%%% For cluster id 9 member size 4
+M ID 12 MG size 4
+7456	4530	3198	5797	
+
+End one cluster 
+####################### End snapshot  2  #############################
+%%% For cluster id 0 member size 31
+M ID 4 MG size 4
+3792	1011	10215	8080	
+M ID 0 MG size 8
+7067	4123	3304	6513	4983	4095	1703	6364	
+M ID 5 MG size 6
+1257	3881	8985	9341	9199	9069	
+M ID 13 MG size 3
+5546	2285	9394	
+1106	5488	7780	6072	6216	1982	1993	5122	1979	1129	
+End one cluster 
+%%% For cluster id 1 member size 5
+M ID 6 MG size 5
+8007	7766	5051	2843	4985	
+
+End one cluster 
+%%% For cluster id 2 member size 5
+M ID 1 MG size 4
+5327	2842	5803	2904	
+3391	
+End one cluster 
+%%% For cluster id 3 member size 14
+M ID 3 MG size 8
+7773	3813	9370	9736	4104	9693	8123	9009	
+M ID 12 MG size 5
+4530	3198	7456	5797	2901	
+2306	
+End one cluster 
+%%% For cluster id 4 member size 4
+M ID 14 MG size 3
+9151	3276	4652	
+6841	
+End one cluster 
+%%% For cluster id 5 member size 5
+M ID 10 MG size 4
+3295	6589	1274	3973	
+10203	
+End one cluster 
+%%% For cluster id 6 member size 5
+M ID 9 MG size 5
+4939	5602	8553	7707	3846	
+
+End one cluster 
+%%% For cluster id 7 member size 7
+M ID 7 MG size 7
+9357	2474	4666	7869	5801	1211	9328	
+
+End one cluster 
+####################### End snapshot  3  #############################
+%%% For cluster id 0 member size 20
+M ID 4 MG size 4
+3792	1011	8080	6072	
+M ID 0 MG size 8
+7067	4095	4123	3304	1703	6513	6364	10215	
+M ID 5 MG size 5
+9199	9069	3881	9341	4985	
+1993	6216	9394	
+End one cluster 
+%%% For cluster id 1 member size 3
+M ID 15 MG size 3
+9357	1106	4666	
+
+End one cluster 
+%%% For cluster id 2 member size 13
+M ID 6 MG size 6
+8007	7766	5051	2843	1257	8985	
+M ID 7 MG size 7
+2474	7869	5801	1211	9328	1982	10203	
+
+End one cluster 
+%%% For cluster id 3 member size 5
+M ID 1 MG size 4
+5327	2842	5803	3391	
+2904	
+End one cluster 
+%%% For cluster id 4 member size 19
+M ID 3 MG size 11
+7773	3813	9370	9736	4104	9009	9693	5488	5797	4983	3846	
+M ID 9 MG size 6
+5602	8553	4939	4530	4652	2140	
+7456	3198	
+End one cluster 
+%%% For cluster id 5 member size 10
+M ID 14 MG size 4
+3276	9151	2306	2901	
+M ID 10 MG size 5
+3295	6589	1274	3973	8123	
+6841	
+End one cluster 
+%%% For cluster id 6 member size 6
+M ID 16 MG size 3
+7780	7707	1979	
+1129	5122	5546	
+End one cluster 
+####################### End snapshot  4  #############################
+%%% For cluster id 0 member size 28
+M ID 4 MG size 9
+3792	1011	8080	6072	9199	4095	1993	3881	10215	
+M ID 0 MG size 6
+7067	4123	3304	1703	6364	4983	
+M ID 5 MG size 4
+9069	4985	7766	1257	
+5797	7773	9693	5488	6589	4666	8007	6216	9394	
+End one cluster 
+%%% For cluster id 1 member size 9
+M ID 15 MG size 4
+9357	1106	2474	1211	
+M ID 7 MG size 4
+7869	10203	5801	9328	
+1982	
+End one cluster 
+%%% For cluster id 2 member size 3
+M ID 6 MG size 3
+5051	2843	8985	
+
+End one cluster 
+%%% For cluster id 3 member size 4
+M ID 1 MG size 4
+5327	2842	5803	3391	
+
+End one cluster 
+%%% For cluster id 4 member size 13
+M ID 3 MG size 5
+3813	9370	9736	4104	9009	
+M ID 16 MG size 5
+7780	7707	1979	8542	8553	
+5546	1129	3198	
+End one cluster 
+%%% For cluster id 5 member size 5
+M ID 14 MG size 3
+2306	9151	2904	
+6841	3276	
+End one cluster 
+%%% For cluster id 6 member size 5
+M ID 10 MG size 5
+3295	1274	3973	8123	2901	
+
+End one cluster 
+%%% For cluster id 7 member size 7
+M ID 9 MG size 7
+4530	5602	4652	2140	4939	7456	3846	
+
+End one cluster 
+####################### End snapshot  5  #############################
+%%% For cluster id 0 member size 7
+M ID 17 MG size 4
+5797	3198	7456	2904	
+2140	2306	9151	
+End one cluster 
+%%% For cluster id 1 member size 21
+M ID 4 MG size 7
+4095	3792	3881	1011	8080	6072	9341	
+M ID 0 MG size 8
+7067	4123	3304	1703	6364	9199	1993	10215	
+M ID 5 MG size 3
+9069	4985	4666	
+5051	6216	5546	
+End one cluster 
+%%% For cluster id 2 member size 20
+M ID 15 MG size 7
+9357	1106	1211	7070	6589	6513	2901	
+M ID 10 MG size 6
+3295	1274	3973	8123	5488	9693	
+M ID 7 MG size 5
+7869	10203	5801	9328	2474	
+6841	1982	
+End one cluster 
+%%% For cluster id 3 member size 5
+M ID 1 MG size 4
+5327	2842	5803	3391	
+8611	
+End one cluster 
+%%% For cluster id 4 member size 5
+M ID 3 MG size 5
+3813	9736	4104	7773	4983	
+
+End one cluster 
+%%% For cluster id 5 member size 5
+M ID 9 MG size 5
+4652	4939	3846	3276	2251	
+
+End one cluster 
+%%% For cluster id 6 member size 8
+M ID 16 MG size 6
+8542	7780	8553	7707	1979	9370	
+1129	9394	
+End one cluster 
+%%% For cluster id 7 member size 5
+M ID 18 MG size 5
+8985	8007	7766	1257	2843	
+
+End one cluster 
+####################### End snapshot  6  #############################
+%%% For cluster id 0 member size 15
+M ID 17 MG size 8
+3198	7456	5797	4530	9736	9009	7707	4983	
+9151	2306	9693	2140	4104	7773	7067	
+End one cluster 
+%%% For cluster id 1 member size 17
+M ID 0 MG size 12
+9199	1993	4123	3304	1703	9069	3792	5051	4666	1011	6072	1211	
+M ID 4 MG size 2
+4095	8080	
+6216	2843	4985	
+End one cluster 
+%%% For cluster id 2 member size 4
+M ID 21 MG size 3
+5546	9394	2285	
+1129	
+End one cluster 
+%%% For cluster id 3 member size 7
+M ID 10 MG size 3
+1274	3973	8123	
+M ID 15 MG size 3
+9357	6589	2904	
+6841	
+End one cluster 
+%%% For cluster id 4 member size 6
+M ID 18 MG size 4
+8007	7766	1257	8985	
+1982	4063	
+End one cluster 
+%%% For cluster id 5 member size 6
+M ID 1 MG size 5
+5327	2842	5803	3391	8611	
+8015	
+End one cluster 
+%%% For cluster id 6 member size 3
+M ID 22 MG size 3
+9341	3881	1979	
+
+End one cluster 
+%%% For cluster id 7 member size 4
+M ID 19 MG size 4
+2251	3276	4652	10215	
+
+End one cluster 
+%%% For cluster id 8 member size 4
+M ID 9 MG size 3
+4939	3846	5602	
+8907	
+End one cluster 
+%%% For cluster id 9 member size 4
+M ID 16 MG size 4
+8542	9370	7780	8553	
+
+End one cluster 
+%%% For cluster id 10 member size 3
+M ID 7 MG size 3
+7869	10203	5801	
+
+End one cluster 
+%%% For cluster id 11 member size 6
+M ID 20 MG size 6
+2901	7070	1106	6513	6364	9328	
+
+End one cluster 
+####################### End snapshot  7  #############################
+%%% For cluster id 0 member size 28
+M ID 17 MG size 10
+4530	3198	9736	9009	7456	5797	4983	9370	4652	2140	
+M ID 19 MG size 3
+3276	2251	7707	
+M ID 16 MG size 5
+8542	7780	8553	10215	2285	
+9199	5546	1979	1129	7773	4104	9394	9341	9151	9693	
+End one cluster 
+%%% For cluster id 1 member size 17
+M ID 4 MG size 6
+8080	7067	1993	4123	2843	9313	
+M ID 0 MG size 7
+3792	5051	4666	3304	1703	1011	6072	
+1211	10338	6216	4063	
+End one cluster 
+%%% For cluster id 2 member size 15
+M ID 15 MG size 4
+9357	6589	6364	9328	
+M ID 10 MG size 2
+1274	8123	
+M ID 20 MG size 4
+1106	2901	10203	2904	
+6841	6513	5801	1982	7869	
+End one cluster 
+%%% For cluster id 3 member size 5
+M ID 1 MG size 4
+5327	2842	5803	3391	
+8611	
+End one cluster 
+%%% For cluster id 4 member size 3
+M ID 23 MG size 3
+8015	8907	3846	
+
+End one cluster 
+%%% For cluster id 5 member size 4
+M ID 9 MG size 4
+5602	4939	2306	3973	
+
+End one cluster 
+%%% For cluster id 6 member size 4
+M ID 18 MG size 4
+8007	7766	1257	8985	
+
+End one cluster 
+####################### End snapshot  8  #############################
+%%% For cluster id 0 member size 19
+M ID 17 MG size 10
+4530	3198	9736	4652	9009	2140	7456	5797	4983	5602	
+M ID 19 MG size 3
+3276	7707	2251	
+9199	9370	9693	4104	1274	8123	
+End one cluster 
+%%% For cluster id 1 member size 24
+M ID 4 MG size 8
+1993	2843	8080	7773	3813	9069	3792	4985	
+M ID 0 MG size 13
+5051	4666	3304	1703	1011	6072	7766	7067	10338	4063	10215	1211	6216	
+1257	8007	8985	
+End one cluster 
+%%% For cluster id 2 member size 12
+M ID 15 MG size 5
+9357	9328	7070	1106	5801	
+M ID 20 MG size 3
+10203	2901	2904	
+1982	6513	6364	7869	
+End one cluster 
+%%% For cluster id 3 member size 6
+M ID 1 MG size 4
+5327	2842	5803	3846	
+3391	8611	
+End one cluster 
+%%% For cluster id 4 member size 6
+M ID 16 MG size 4
+8542	7780	8553	4095	
+1129	2285	
+End one cluster 
+%%% For cluster id 5 member size 5
+M ID 9 MG size 4
+2306	4939	3973	9151	
+6841	
+End one cluster 
+%%% For cluster id 6 member size 3
+M ID 24 MG size 3
+5546	9394	9341	
+
+End one cluster 
+%%% For cluster id 7 member size 3
+M ID 25 MG size 3
+4123	1979	9313	
+
+End one cluster 
+####################### End snapshot  9  #############################
+%%% For cluster id 0 member size 26
+M ID 17 MG size 6
+3198	9736	4652	5797	9069	4104	
+M ID 4 MG size 10
+3792	1993	2843	8080	6589	4666	1703	6072	1211	2904	
+M ID 19 MG size 3
+7707	2251	2140	
+2901	1257	8007	9370	8123	9693	1274	
+End one cluster 
+%%% For cluster id 1 member size 16
+M ID 0 MG size 8
+7766	7067	5051	10338	4063	3304	6216	10203	
+M ID 25 MG size 6
+4123	7773	3813	1011	10215	4985	
+8985	1982	
+End one cluster 
+%%% For cluster id 2 member size 3
+M ID 28 MG size 3
+1106	7070	5801	
+
+End one cluster 
+%%% For cluster id 3 member size 3
+M ID 26 MG size 3
+9199	9151	7456	
+
+End one cluster 
+%%% For cluster id 4 member size 6
+M ID 15 MG size 5
+9328	3295	2474	6513	6364	
+1125	
+End one cluster 
+%%% For cluster id 5 member size 3
+M ID 1 MG size 3
+5327	3846	5803	
+
+End one cluster 
+%%% For cluster id 6 member size 5
+M ID 27 MG size 3
+2842	3391	8611	
+8907	8015	
+End one cluster 
+%%% For cluster id 7 member size 6
+M ID 9 MG size 5
+2306	3973	4530	5602	4983	
+6841	
+End one cluster 
+%%% For cluster id 8 member size 6
+M ID 16 MG size 5
+8542	4095	7780	8553	1979	
+1129	
+End one cluster 
+%%% For cluster id 9 member size 3
+M ID 24 MG size 3
+9394	5546	9341	
+
+End one cluster 
+####################### End snapshot  10  #############################
+%%% For cluster id 0 member size 29
+M ID 17 MG size 8
+9069	3198	9736	5797	7773	3813	4666	1979	
+M ID 25 MG size 3
+4123	1011	4985	
+M ID 4 MG size 6
+6589	3792	8080	6072	1211	2904	
+M ID 16 MG size 5
+8542	4095	7780	8553	10215	
+9341	9394	5546	9370	8007	1257	1129	
+End one cluster 
+%%% For cluster id 1 member size 11
+M ID 0 MG size 9
+7766	5051	10338	4063	3304	10203	6216	2843	1703	
+8985	1982	
+End one cluster 
+%%% For cluster id 2 member size 7
+M ID 29 MG size 4
+2474	5488	1274	9693	
+8123	1125	6841	
+End one cluster 
+%%% For cluster id 3 member size 4
+M ID 28 MG size 3
+1106	5801	9357	
+7869	
+End one cluster 
+%%% For cluster id 4 member size 12
+M ID 26 MG size 5
+9199	9151	7456	7707	2140	
+M ID 19 MG size 3
+2251	3276	4652	
+M ID 9 MG size 4
+4530	5602	3973	4104	
+
+End one cluster 
+%%% For cluster id 5 member size 6
+M ID 15 MG size 6
+3295	6513	6364	9328	7070	2901	
+
+End one cluster 
+%%% For cluster id 6 member size 3
+M ID 1 MG size 3
+5327	3846	5803	
+
+End one cluster 
+%%% For cluster id 7 member size 5
+M ID 27 MG size 3
+2842	8611	2306	
+8907	8015	
+End one cluster 
+####################### End snapshot  11  #############################
+%%% For cluster id 0 member size 5
+M ID 28 MG size 3
+9357	1106	3295	
+7869	8007	
+End one cluster 
+%%% For cluster id 1 member size 35
+M ID 17 MG size 9
+7773	3813	9069	9736	4666	1979	5797	9370	9009	
+M ID 19 MG size 6
+3276	4652	2251	4530	5602	4983	
+M ID 16 MG size 6
+8542	4095	7780	8553	10215	4985	
+M ID 9 MG size 3
+4104	1125	9693	
+7456	2842	2306	2140	1129	5546	9341	4123	9394	6841	3792	
+End one cluster 
+%%% For cluster id 2 member size 3
+M ID 26 MG size 3
+9199	9151	7707	
+
+End one cluster 
+%%% For cluster id 3 member size 16
+M ID 4 MG size 3
+8080	1257	10203	
+M ID 0 MG size 9
+7766	5051	10338	2843	3304	1703	6216	1993	1011	
+4063	8985	7067	1982	
+End one cluster 
+%%% For cluster id 4 member size 10
+M ID 15 MG size 6
+7070	6513	6364	2901	9328	5488	
+M ID 29 MG size 3
+2474	1274	8123	
+8611	
+End one cluster 
+%%% For cluster id 5 member size 3
+M ID 1 MG size 3
+5327	3846	5803	
+
+End one cluster 
+%%% For cluster id 6 member size 5
+M ID 30 MG size 5
+6072	6589	3198	1211	2904	
+
+End one cluster 
+####################### End snapshot  12  #############################
+%%% For cluster id 0 member size 10
+M ID 28 MG size 3
+3295	9357	1106	
+M ID 15 MG size 3
+5488	6513	9328	
+5801	2904	7869	3792	
+End one cluster 
+%%% For cluster id 1 member size 32
+M ID 17 MG size 9
+3813	9370	9069	9736	9009	1979	5797	4652	2842	
+M ID 19 MG size 4
+5602	3276	2251	3973	
+M ID 16 MG size 6
+8542	4095	7780	10215	4985	2285	
+M ID 9 MG size 4
+4104	9693	6364	2901	
+4666	4939	8123	4983	2306	5546	1129	9341	4123	
+End one cluster 
+%%% For cluster id 2 member size 7
+M ID 26 MG size 7
+9199	9151	7707	7773	4530	2140	7456	
+
+End one cluster 
+%%% For cluster id 3 member size 17
+M ID 4 MG size 5
+1257	10203	8007	7766	7067	
+M ID 0 MG size 7
+5051	10338	1993	3304	1703	1011	6216	
+2843	9394	4063	1982	8985	
+End one cluster 
+%%% For cluster id 4 member size 3
+M ID 1 MG size 3
+5327	3846	5803	
+
+End one cluster 
+%%% For cluster id 5 member size 9
+M ID 29 MG size 3
+2474	1274	1125	
+M ID 30 MG size 5
+6589	3198	6072	1211	7070	
+6841	
+End one cluster 
+####################### End snapshot  13  #############################
+%%% For cluster id 0 member size 27
+M ID 17 MG size 12
+3813	9370	9069	9736	4652	2842	1979	5797	7773	3276	8553	9151	
+M ID 26 MG size 5
+4530	9199	7707	2140	7456	
+M ID 16 MG size 5
+8542	4095	7780	10215	4985	
+2251	9693	1129	5546	5051	
+End one cluster 
+%%% For cluster id 1 member size 8
+M ID 0 MG size 5
+3304	1703	1011	6216	3792	
+2904	7067	4063	
+End one cluster 
+%%% For cluster id 2 member size 3
+M ID 33 MG size 3
+10338	6589	1993	
+
+End one cluster 
+%%% For cluster id 3 member size 4
+M ID 32 MG size 4
+8080	7766	2843	8985	
+
+End one cluster 
+%%% For cluster id 4 member size 14
+M ID 30 MG size 3
+7070	3198	6072	
+M ID 15 MG size 3
+6513	9328	9357	
+M ID 9 MG size 4
+4104	6364	2901	5488	
+2474	1274	1125	5801	
+End one cluster 
+%%% For cluster id 5 member size 4
+M ID 28 MG size 3
+3295	1106	7869	
+1982	
+End one cluster 
+%%% For cluster id 6 member size 4
+M ID 4 MG size 4
+8007	1257	10203	1211	
+
+End one cluster 
+%%% For cluster id 7 member size 3
+M ID 1 MG size 3
+5327	3846	5803	
+
+End one
