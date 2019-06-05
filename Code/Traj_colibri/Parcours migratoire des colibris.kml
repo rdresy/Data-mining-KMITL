@@ -1,0 +1,3783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Parcours migratoire des colibris</name>
+    <description>Carte qui indique les déplacements connus de Colibris à gorge rubis bagués de 1950 à 2013</description>
+    <Style id="icon-101-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/101-pink-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-101-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/101-pink-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-101">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-101-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-101-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-102-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/102-pink.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-102-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/102-pink.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-102">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-102-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-102-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-111-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/111-purple-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-111-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/111-purple-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-111">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-111-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-111-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-112-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/112-purple.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-112-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/112-purple.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-112">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-112-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-112-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-123-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/123-red-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-123-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/123-red-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-123">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-123-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-123-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-124-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/124-red.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-124-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/124-red.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-124">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-124-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-124-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-157-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/157-yellow-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-157-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/157-yellow-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-157">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-157-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-157-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-158-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/158-yellow.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-158-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/158-yellow.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-158">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-158-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-158-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-159-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/159-blue-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-159-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/159-blue-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-159">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-159-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-159-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-161-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/161-grn-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-161-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/161-grn-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-161">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-161-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-161-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-163-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/163-lightblue.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-163-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/163-lightblue.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-163">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-163-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-163-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-164-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/164-ltblu-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-164-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/164-ltblu-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-164">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-164-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-164-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-165-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/165-pink-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-165-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/165-pink-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-165">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-165-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-165-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-166-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/166-purple-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-166-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/166-purple-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-166">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-166-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-166-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-167-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/167-red-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-167-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/167-red-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-167">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-167-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-167-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-168-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/168-ylw-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-168-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/168-ylw-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-168">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-168-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-168-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-169-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/169-ltblue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-169-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/169-ltblue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-169">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-169-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-169-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-22-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-22-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-22">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-24-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/24-blue.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-24-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/24-blue.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-24">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-24-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-24-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-61-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/61-green-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-61-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/61-green-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-61">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-61-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-61-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-62-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/62-green.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-62-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/62-green.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-62">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-62-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-62-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-000000-3000-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-000000-3000-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>4.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-000000-3000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-3000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-3000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0000FF-3000-nodesc-normal">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-0000FF-3000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>4.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-0000FF-3000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0000FF-3000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0000FF-3000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-006600-3000-nodesc-normal">
+      <LineStyle>
+        <color>ff006600</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-006600-3000-nodesc-highlight">
+      <LineStyle>
+        <color>ff006600</color>
+        <width>4.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-006600-3000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-006600-3000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-006600-3000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-009900-3000-nodesc-normal">
+      <LineStyle>
+        <color>ff009900</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-009900-3000-nodesc-highlight">
+      <LineStyle>
+        <color>ff009900</color>
+        <width>4.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-009900-3000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-009900-3000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-009900-3000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-00CCCC-3000-nodesc-normal">
+      <LineStyle>
+        <color>ffcccc00</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-00CCCC-3000-nodesc-highlight">
+      <LineStyle>
+        <color>ffcccc00</color>
+        <width>4.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-00CCCC-3000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-00CCCC-3000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-00CCCC-3000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-333333-3000-nodesc-normal">
+      <LineStyle>
+        <color>ff333333</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-333333-3000-nodesc-highlight">
+      <LineStyle>
+        <color>ff333333</color>
+        <width>4.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-333333-3000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-333333-3000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-333333-3000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-3333FF-3000-nodesc-normal">
+      <LineStyle>
+        <color>ffff3333</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-3333FF-3000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff3333</color>
+        <width>4.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-3333FF-3000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-3333FF-3000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-3333FF-3000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-339999-3000-nodesc-normal">
+      <LineStyle>
+        <color>ff999933</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-339999-3000-nodesc-highlight">
+      <LineStyle>
+        <color>ff999933</color>
+        <width>4.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-339999-3000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-339999-3000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-339999-3000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-33CC00-3000-nodesc-normal">
+      <LineStyle>
+        <color>ff00cc33</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-33CC00-3000-nodesc-highlight">
+      <LineStyle>
+        <color>ff00cc33</color>
+        <width>4.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-33CC00-3000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-33CC00-3000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-33CC00-3000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-33CCFF-3000-nodesc-normal">
+      <LineStyle>
+        <color>ffffcc33</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-33CCFF-3000-nodesc-highlight">
+      <LineStyle>
+        <color>ffffcc33</color>
+        <width>4.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-33CCFF-3000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-33CCFF-3000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-33CCFF-3000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-6600CC-3000-nodesc-normal">
+      <LineStyle>
+        <color>ffcc0066</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-6600CC-3000-nodesc-highlight">
+      <LineStyle>
+        <color>ffcc0066</color>
+        <width>4.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-6600CC-3000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-6600CC-3000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-6600CC-3000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-663366-3000-nodesc-normal">
+      <LineStyle>
+        <color>ff663366</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-663366-3000-nodesc-highlight">
+      <LineStyle>
+        <color>ff663366</color>
+        <width>4.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-663366-3000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-663366-3000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-663366-3000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-6633FF-3000-nodesc-normal">
+      <LineStyle>
+        <color>ffff3366</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-6633FF-3000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff3366</color>
+        <width>4.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-6633FF-3000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-6633FF-3000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-6633FF-3000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-6666CC-3000-nodesc-normal">
+      <LineStyle>
+        <color>ffcc6666</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-6666CC-3000-nodesc-highlight">
+      <LineStyle>
+        <color>ffcc6666</color>
+        <width>4.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-6666CC-3000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-6666CC-3000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-6666CC-3000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-990000-3000-nodesc-normal">
+      <LineStyle>
+        <color>ff000099</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-990000-3000-nodesc-highlight">
+      <LineStyle>
+        <color>ff000099</color>
+        <width>4.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-990000-3000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-990000-3000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-990000-3000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-996633-3000-nodesc-normal">
+      <LineStyle>
+        <color>ff336699</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-996633-3000-nodesc-highlight">
+      <LineStyle>
+        <color>ff336699</color>
+        <width>4.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-996633-3000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-996633-3000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-996633-3000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-CC0000-3000-nodesc-normal">
+      <LineStyle>
+        <color>ff0000cc</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-CC0000-3000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000cc</color>
+        <width>4.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-CC0000-3000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-CC0000-3000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-CC0000-3000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-CC33CC-3000-nodesc-normal">
+      <LineStyle>
+        <color>ffcc33cc</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-CC33CC-3000-nodesc-highlight">
+      <LineStyle>
+        <color>ffcc33cc</color>
+        <width>4.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-CC33CC-3000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-CC33CC-3000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-CC33CC-3000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF0000-3000-nodesc-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF0000-3000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>4.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF0000-3000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-3000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-3000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFCC00-3000-nodesc-normal">
+      <LineStyle>
+        <color>ff00ccff</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFCC00-3000-nodesc-highlight">
+      <LineStyle>
+        <color>ff00ccff</color>
+        <width>4.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFCC00-3000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFCC00-3000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFCC00-3000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF00-3000-nodesc-normal">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFF00-3000-nodesc-highlight">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>4.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFF00-3000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF00-3000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF00-3000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFF33-3000-nodesc-normal">
+      <LineStyle>
+        <color>ff33ffff</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFF33-3000-nodesc-highlight">
+      <LineStyle>
+        <color>ff33ffff</color>
+        <width>4.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFF33-3000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFF33-3000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFF33-3000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFFFF-3000-nodesc-normal">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFFFF-3000-nodesc-highlight">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>4.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFFFF-3000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFFFF-3000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFFFF-3000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Calque sans titre</name>
+      <Placemark>
+        <name>Bagué à Somerset, Pennsylvanie</name>
+        <description>le 04/09/1980 - Jeune mâle</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -79.235802,40.080173,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-0000FF-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -71.54743,47.0631,0
+            -79.233398,40.081749,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Stoneham, Québec</name>
+        <description>le 05/06/1982 - un parcours de 990 km</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -71.548462,47.061469,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baguée à Brazoria, Texas</name>
+        <description>le 21/09/2005 - Femelle adulte</description>
+        <styleUrl>#icon-124</styleUrl>
+        <Point>
+          <coordinates>
+            -95.603027,29.063372,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-FF0000-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -72.07387,45.40236,0
+            -95.601654,29.066373,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturée à Saint-Denis-de-Brompton, Québec</name>
+        <description>21/05/2007  - un parcours de 2750 km.</description>
+        <styleUrl>#icon-124</styleUrl>
+        <Point>
+          <coordinates>
+            -72.073874,45.402367,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Nacogdoches, Texas </name>
+        <description>le 21/09/2007 - Jeune mâle</description>
+        <styleUrl>#icon-159</styleUrl>
+        <Point>
+          <coordinates>
+            -94.65271,31.618305,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-0000FF-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -70.723114,46.93151,0
+            -94.66369,31.62532,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Berthier-sur-Mer, Québec</name>
+        <description>24/05/2009  - un parcours de 2660 km</description>
+        <styleUrl>#icon-159</styleUrl>
+        <Point>
+          <coordinates>
+            -70.718994,46.930572,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Millington, Maryland</name>
+        <description>le 05/05/1999 -  Mâle adulte</description>
+        <styleUrl>#icon-157</styleUrl>
+        <Point>
+          <coordinates>
+            -75.901794,39.254588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-996633-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -72.08129,45.08903,0
+            -75.900421,39.256183,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Stanstead, Québec</name>
+        <description>le 13/06/1999 - un parcours de 721 km</description>
+        <styleUrl>#icon-157</styleUrl>
+        <Point>
+          <coordinates>
+            -72.078552,45.087096,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Amhersburg, Ontario</name>
+        <description>le 15/09/2007 - Jeune mâle</description>
+        <styleUrl>#icon-24</styleUrl>
+        <Point>
+          <coordinates>
+            -83.049088,42.056685,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-0000FF-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -83.056641,42.065607,0
+            -95.703278,29.048967,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Sweeney, Texas </name>
+        <description>le 02-10-2007 -  un parcours de 1830 km effectué en 17 jours</description>
+        <styleUrl>#icon-24</styleUrl>
+        <Point>
+          <coordinates>
+            -95.703278,29.048967,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Victoria, Texas</name>
+        <description>le 05/10/2006 - Jeune mâle</description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            -97.086182,28.758028,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-009900-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -90.52734,44.96479,0
+            -90.5603,45.058,0
+            -90.52734,44.96479,0
+            -97.083435,28.762844,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Medford, Wisconsin</name>
+        <description>le 05/09/2007 - un parcours de 1914 km</description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            -90.560303,45.065762,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Lyndonville, New York</name>
+        <description>le 01/09/2007 - Jeune mâle</description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            -78.250122,43.357138,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-663366-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -78.250122,43.355141,0
+            -95.4245,29.10417,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Angleton, Texas</name>
+        <description>le 01/10/2007 - un parcours de 2200 km en 30 jours</description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            -95.4245,29.104177,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Springville, Alabama</name>
+        <description>le 16/09/1995 - Jeune mâle</description>
+        <styleUrl>#icon-158</styleUrl>
+        <Point>
+          <coordinates>
+            -86.581879,33.753746,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-000000-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -71.746216,42.915201,0
+            -86.580505,33.753461,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Lyndeborough, New Hamshire</name>
+        <description>le 16/04/98 - un parcours de 1644 km</description>
+        <styleUrl>#icon-158</styleUrl>
+        <Point>
+          <coordinates>
+            -71.746731,42.914949,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baguée à Victoria, Texas</name>
+        <description>le 06/10/2005 - Femelle adulte</description>
+        <styleUrl>#icon-102</styleUrl>
+        <Point>
+          <coordinates>
+            -96.976318,28.741172,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-000000-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -73.497162,41.614416,0
+            -96.97357,28.74358,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturée à Sherman, Connecticut</name>
+        <description>le 29/06/2006 - un parcours de 2560 km</description>
+        <styleUrl>#icon-102</styleUrl>
+        <Point>
+          <coordinates>
+            -73.496819,41.611849,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baguée à Fulton, Texas</name>
+        <description>le 16/09/2006 - Femelle adulte</description>
+        <styleUrl>#icon-163</styleUrl>
+        <Point>
+          <coordinates>
+            -96.932373,28.067133,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-000000-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -79.898071,39.871804,0
+            -96.93237,28.06713,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturée à Dunkard, Pennsylvanie</name>
+        <description>le 09/09/2007 - un parcours de 2045 km</description>
+        <styleUrl>#icon-163</styleUrl>
+        <Point>
+          <coordinates>
+            -79.899445,39.868642,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Scott, Louisiane</name>
+        <description>le 18/09/2004 - Mâle adulte</description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            -92.086029,30.259067,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-009900-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -70.876236,42.798424,0
+            -92.084656,30.25966,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Newbury, Massachusetts</name>
+        <description>le 16/05/2007 - un parcours de 2345 km</description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            -70.875034,42.797164,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Brazoria, Texas </name>
+        <description>le 18/09/2006 - Femelle adulte</description>
+        <styleUrl>#icon-101</styleUrl>
+        <Point>
+          <coordinates>
+            -95.597534,29.272025,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-333333-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -82.055511,33.595175,0
+            -95.59204,29.27322,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturée à Clarks Hill, Caroline du Sud</name>
+        <description>le 25/07/2007 - un parcours de 1370 km</description>
+        <styleUrl>#icon-101</styleUrl>
+        <Point>
+          <coordinates>
+            -82.054138,33.594031,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Alpine, Alabama </name>
+        <description>le 18/09/2007 - Jeune mâle</description>
+        <styleUrl>#icon-111</styleUrl>
+        <Point>
+          <coordinates>
+            -86.259155,33.458943,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-333333-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -86.257782,33.460088,0
+            -95.95459,28.74839,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Bay City, Texas</name>
+        <description>le 01/10/2007 - un parcours de 1062 km</description>
+        <styleUrl>#icon-111</styleUrl>
+        <Point>
+          <coordinates>
+            -95.95459,28.748397,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baguée à St-Francisville, Louisiane</name>
+        <description>le 26/05/2005 - Femelle adulte</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -91.494141,30.859795,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-FF0000-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -91.49414,30.85979,0
+            -97.030563,28.711366,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturée à Victoria, Texas</name>
+        <description>le 30/03/2006 - un parcours de 586 km</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -97.03125,28.709861,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Somerset, Pennsylvanie </name>
+        <description>le 08/09/1997 - Jeune mâle</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            -79.398193,40.044438,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-3333FF-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -79.399567,40.047066,0
+            -70.731354,43.198168,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Rye, New Hamshire</name>
+        <description>le 19/05/1998 - un parcours de 800 km</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            -70.72998,43.197167,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baguée à Somerset, Pennsylvanie</name>
+        <description>le 30/08/2001 - Jeune femelle</description>
+        <styleUrl>#icon-167</styleUrl>
+        <Point>
+          <coordinates>
+            -79.30481,40.061257,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-333333-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -79.311676,40.061257,0
+            -89.406738,37.571794,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturée Alto Pass, Illinois</name>
+        <description>le 02/09/2002 - un parcours de 915 km</description>
+        <styleUrl>#icon-167</styleUrl>
+        <Point>
+          <coordinates>
+            -89.398499,37.570705,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Dauphin Island, Alabama </name>
+        <description>le 16/04/2002 - Mâle adulte</description>
+        <styleUrl>#icon-168</styleUrl>
+        <Point>
+          <coordinates>
+            -88.101082,30.251357,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-333333-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -73.406525,41.257678,0
+            -88.101425,30.25195,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Weston, Connecticut</name>
+        <description>le 29/07/2002 - un parcours de 1800 km</description>
+        <styleUrl>#icon-168</styleUrl>
+        <Point>
+          <coordinates>
+            -73.404465,41.257678,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Conover, Caroline du Nord</name>
+        <description>le 30/09/2008 - Jeune mâle</description>
+        <styleUrl>#icon-161</styleUrl>
+        <Point>
+          <coordinates>
+            -81.320801,35.746512,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-009900-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -81.327667,35.746512,0
+            -97.165146,28.168875,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Rockport, Texas</name>
+        <description>le 12/10/2008 - un parcours de 1715 km</description>
+        <styleUrl>#icon-161</styleUrl>
+        <Point>
+          <coordinates>
+            -97.163086,28.168875,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Vinita, Oklahoma</name>
+        <description>le 14/09/1995 - Jeune mâle</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -95.083332,36.582952,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-0000FF-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -97.119141,48.195387,0
+            -95.08117,36.58024,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Oslo, Minnesota</name>
+        <description>le 22/06/1997 - un parcours de 1300 km</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -97.132017,48.195261,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à York, Caroline du Sud</name>
+        <description>le 17/09/2006 - Jeune mâle</description>
+        <styleUrl>#icon-165</styleUrl>
+        <Point>
+          <coordinates>
+            -81.247925,34.916557,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-CC33CC-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -81.250763,34.916341,0
+            -87.92358,32.26855,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Sweet Water, Alabama</name>
+        <description>le 01/10/2006 - un parcours de 685 km</description>
+        <styleUrl>#icon-165</styleUrl>
+        <Point>
+          <coordinates>
+            -87.917534,32.251051,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à York, Caroline du Sud</name>
+        <description>le 01/09/2007 - Mâle adulte</description>
+        <styleUrl>#icon-159</styleUrl>
+        <Point>
+          <coordinates>
+            -81.23291,34.85889,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-0000FF-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -71.989288,41.3799,0
+            -81.235657,34.857764,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Mystic, Connecticut</name>
+        <description>le 31/05/2008 - un parcours de 1085 km</description>
+        <styleUrl>#icon-159</styleUrl>
+        <Point>
+          <coordinates>
+            -71.984866,41.378799,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Broken Arrow, Oklahoma</name>
+        <description>le 17/09/1999 - Jeune mâle</description>
+        <styleUrl>#icon-124</styleUrl>
+        <Point>
+          <coordinates>
+            -95.753311,36.083771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-FF0000-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -95.74749,36.08462,0
+            -99.253235,30.088108,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Ingram, Texas</name>
+        <description>le 02/05/2000 - un parcours de 743 km</description>
+        <styleUrl>#icon-124</styleUrl>
+        <Point>
+          <coordinates>
+            -99.253235,30.088108,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Vinita, Oklahoma</name>
+        <description>le 03/08/1998 - Jeune mâle</description>
+        <styleUrl>#icon-101</styleUrl>
+        <Point>
+          <coordinates>
+            -95.059204,36.5626,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-CC33CC-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -95.056458,36.5626,0
+            -99.20379,30.05958,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Ingram, Texas</name>
+        <description>le 29/08/1999 - un parcours de 820 km</description>
+        <styleUrl>#icon-101</styleUrl>
+        <Point>
+          <coordinates>
+            -99.20105,30.059586,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baguée à Robstown, Texas</name>
+        <description>le 13/09/1998 - Jeune femelle</description>
+        <styleUrl>#icon-166</styleUrl>
+        <Point>
+          <coordinates>
+            -97.579041,27.753936,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-6666CC-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -92.592773,39.266284,0
+            -97.584,27.75586,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturée à Fayette, Missouri</name>
+        <description>le 20/08/1999 - un parcours de 1360 km</description>
+        <styleUrl>#icon-166</styleUrl>
+        <Point>
+          <coordinates>
+            -92.582393,39.249696,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Somerset, Pennsylvanie</name>
+        <description>le 08/09/1997 - Jeune mâle</description>
+        <styleUrl>#icon-102</styleUrl>
+        <Point>
+          <coordinates>
+            -79.25603,40.084302,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-CC33CC-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -70.71487,43.0458,0
+            -79.253998,40.085427,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Rye, New Hamshire</name>
+        <description>le 19/05/1998 - un parcours de 780 km</description>
+        <styleUrl>#icon-102</styleUrl>
+        <Point>
+          <coordinates>
+            -70.714236,43.045271,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Morris, Alabama</name>
+        <description>le 30/05/2000 - Sexe inconnu</description>
+        <styleUrl>#icon-166</styleUrl>
+        <Point>
+          <coordinates>
+            -86.812592,33.74718,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-6633FF-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -86.81671,33.74832,0
+            -95.646973,30.01322,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Houston, Texas</name>
+        <description>le 05/09/2000 - un parcours de 935 km</description>
+        <styleUrl>#icon-166</styleUrl>
+        <Point>
+          <coordinates>
+            -95.635986,30.002517,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baguée à Victoria, Texas</name>
+        <description>le 06/09/2000 - Jeune femelle</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -97.079145,28.747673,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-0000FF-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -77.417908,38.419166,0
+            -97.080688,28.754416,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturée à Stafford, Virginie</name>
+        <description>le 19/06/2001 - un parcours de 2110 km</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -77.417308,38.415221,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Odem, Texas</name>
+        <description>le 21/04/2001 - Mâle adulte</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            -97.582497,27.925604,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-0000FF-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -87.91534,38.75408,0
+            -97.57988,27.926474,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Claremont, Illinois</name>
+        <description>le 21/05/2001 - un parcours de 1502 km</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            -87.916662,38.754122,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Covington, Louisiane</name>
+        <description>le 28/04/2008 - Mâle adulte</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -90.082939,30.413938,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-0000FF-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -69.84558,44.08462,0
+            -89.703369,30.675715,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Bowdoinham, Maine</name>
+        <description>le 13/05/2009 - un parcours de 2340 km</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -69.845506,44.085348,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Pinckney, Michigan</name>
+        <description>le 16/09/2008 - Jeune mâle</description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            -83.918327,42.416453,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-009900-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -83.924561,42.407235,0
+            -95.578308,32.921097,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Yantis, Texas</name>
+        <description>le 12/09/2009 - un parcours de 1470 km</description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            -95.582779,32.91691,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Jonesboro, Illinois</name>
+        <description>le 28/08/2008 - Jeune mâle</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            -89.337563,37.353496,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-33CCFF-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -89.34248,37.35269,0
+            -94.084167,33.416541,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Texarkana, Texas</name>
+        <description>le 06/09/2009 - un parcours de 614</description>
+        <styleUrl>#icon-169</styleUrl>
+        <Point>
+          <coordinates>
+            -94.08333,33.416458,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Carbondale, Illinois</name>
+        <description>le 16/09/2008 - Jeune mâle</description>
+        <styleUrl>#icon-157</styleUrl>
+        <Point>
+          <coordinates>
+            -89.21675,37.727273,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-FFFF33-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -91.406937,46.56547,0
+            -89.218597,37.728366,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Iron River, Wisconsin</name>
+        <description>le 25/05/2010 - un parcours de 1000 km</description>
+        <styleUrl>#icon-157</styleUrl>
+        <Point>
+          <coordinates>
+            -91.408211,46.564578,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Grove, Oklahoma</name>
+        <description>le 06/08/2010 - Jeune mâle</description>
+        <styleUrl>#icon-168</styleUrl>
+        <Point>
+          <coordinates>
+            -94.769119,36.593686,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-FFFF00-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -94.779053,36.595684,0
+            -98.434753,30.09999,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Blanco, Texas</name>
+        <description>le 10/09/2010 - un parcours de 800 km</description>
+        <styleUrl>#icon-168</styleUrl>
+        <Point>
+          <coordinates>
+            -98.42141,30.097986,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baguée à Alpine, Alabama</name>
+        <description>le 01/09/2009 - Jeune femelle</description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            -86.238585,33.348722,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-006600-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -80.070024,38.487995,0
+            -86.255326,33.330528,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturée à Mingo, Virginie occidentale</name>
+        <description>le 08/08/2010 un parcours de 800 km</description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            -80.053848,38.499493,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baguée à Juliette, Georgie</name>
+        <description>le 01/07/2005 - Jeune femelle</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -83.748131,33.085243,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-CC0000-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -89.413605,31.084694,0
+            -83.747406,33.084638,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturée à Lumberton, Mississipi</name>
+        <description>le 01/08/2009 - un parcours de 580 km</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -89.417009,31.083384,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baguée à Springville, Alabama</name>
+        <description>le 05/09/2001 - Jeune femelle</description>
+        <styleUrl>#icon-124</styleUrl>
+        <Point>
+          <coordinates>
+            -86.583146,33.750182,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-990000-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -80.914307,37.744657,0
+            -86.572266,33.760882,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturée à Shady Spring, Virginie occidentale</name>
+        <description>le 22/07/2003 - un parcours de 675 km</description>
+        <styleUrl>#icon-124</styleUrl>
+        <Point>
+          <coordinates>
+            -80.914036,37.747909,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baguée à Victoria, Texas </name>
+        <description>le 08/04/2002 - Femelle adulte</description>
+        <styleUrl>#icon-165</styleUrl>
+        <Point>
+          <coordinates>
+            -97.079145,28.747673,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-663366-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -83.592224,33.578587,0
+            -97.080688,28.748397,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturée à Rutledge, Georgie</name>
+        <description>le 03/06/2002 - un parcours de 1390 km</description>
+        <styleUrl>#icon-165</styleUrl>
+        <Point>
+          <coordinates>
+            -83.587438,33.581018,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Victoria, Texas</name>
+        <description>le 13/08/2002 - Jeune mâle</description>
+        <styleUrl>#icon-164</styleUrl>
+        <Point>
+          <coordinates>
+            -97.079145,28.747673,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-339999-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -89.253616,37.750629,0
+            -97.088928,28.75562,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Carbondale, Illinois</name>
+        <description>le 04/06/2004 - un parcours de 1240 km</description>
+        <styleUrl>#icon-164</styleUrl>
+        <Point>
+          <coordinates>
+            -89.25,37.75,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Victoria, Texas</name>
+        <description>le 28/08/2002 - Jeune mâle</description>
+        <styleUrl>#icon-111</styleUrl>
+        <Point>
+          <coordinates>
+            -97.079145,28.747673,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-663366-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -89.24881,37.583766,0
+            -97.080688,28.745989,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Cobden, Illinois</name>
+        <description>le 31/05/2004 - un parcours de 1225 km</description>
+        <styleUrl>#icon-111</styleUrl>
+        <Point>
+          <coordinates>
+            -89.247687,37.585043,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Makanda, Illinois</name>
+        <description>le 28/08/2001 - Jeune mâle</description>
+        <styleUrl>#icon-102</styleUrl>
+        <Point>
+          <coordinates>
+            -89.088454,37.575971,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-990000-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -89.08744,37.57614,0
+            -97.078629,28.747193,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Victoria, Texas</name>
+        <description>le 31/08/2003 - un parcours de 1230 km</description>
+        <styleUrl>#icon-102</styleUrl>
+        <Point>
+          <coordinates>
+            -97.079145,28.747673,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baguée à Casscoe, Arkansas</name>
+        <description>le 02/08/2011 - Femelle adulte</description>
+        <styleUrl>#icon-161</styleUrl>
+        <Point>
+          <coordinates>
+            -91.325833,34.525556,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-006600-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -91.334839,34.525793,0
+            -95.093536,30.333769,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturée à Cleveland, Texas</name>
+        <description>le 10/09/2011 - un parcours de 585 km</description>
+        <styleUrl>#icon-161</styleUrl>
+        <Point>
+          <coordinates>
+            -95.085488,30.34132,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Angleton, Texas</name>
+        <description>le 12/09/2010 - Jeune mâle</description>
+        <styleUrl>#icon-167</styleUrl>
+        <Point>
+          <coordinates>
+            -95.431885,29.16941,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-990000-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -87.296333,34.481373,0
+            -95.433426,29.168351,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Moulton, Alabama</name>
+        <description>le 09/07/2011 - un parcours de 970 km</description>
+        <styleUrl>#icon-167</styleUrl>
+        <Point>
+          <coordinates>
+            -87.293353,34.481206,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Victoria, Texas</name>
+        <description>le 03/10/2010 - Jeune mâle</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -97.003598,28.805267,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-0000FF-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -83.40683,38.947661,0
+            -96.999664,28.807377,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Peebles, Ohio</name>
+        <description>le 26/04/2011 - un parcours de 1685 km</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -83.405746,38.948959,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Rockport, Texas</name>
+        <description>le 17/09/2010 - Jeune mâle</description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            -97.054434,28.020573,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-663366-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -86.4624,39.85704,0
+            -97.053909,28.020469,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Pittsboro, Indiana</name>
+        <description>le 10/05/2011 - un parcours de 1640 km</description>
+        <styleUrl>#icon-112</styleUrl>
+        <Point>
+          <coordinates>
+            -86.466943,39.863933,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Cobden, Illinois</name>
+        <description>le 08/09/2002 - Mâle adulte</description>
+        <styleUrl>#icon-161</styleUrl>
+        <Point>
+          <coordinates>
+            -89.247687,37.585043,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-006600-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -78.431396,41.756971,0
+            -89.258423,37.588119,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Smethport, Pennsylvanie</name>
+        <description>le 10/06/2003 - un parcours de 1035 km</description>
+        <styleUrl>#icon-161</styleUrl>
+        <Point>
+          <coordinates>
+            -78.40822,41.756209,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baguée à Jonesboro, Illinois</name>
+        <description>le 09/09/2002 - Jeune femelle</description>
+        <styleUrl>#icon-164</styleUrl>
+        <Point>
+          <coordinates>
+            -89.250565,37.416179,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-33CCFF-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -92.414761,47.24999,0
+            -89.255676,37.418163,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturée à Cotton, Minnesota</name>
+        <description>le 05/07/2003 - un parcours de 1125 km</description>
+        <styleUrl>#icon-164</styleUrl>
+        <Point>
+          <coordinates>
+            -92.414016,47.249991,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Tallula, Illinois</name>
+        <description>le 01/08/2004 - Mâle adulte</description>
+        <styleUrl>#icon-159</styleUrl>
+        <Point>
+          <coordinates>
+            -89.922709,39.916339,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-0000FF-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -89.950562,39.926588,0
+            -94.2572,35.07833,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Huntington, Arkansas</name>
+        <description>le 05/09/2005 - un parcours de 660 km</description>
+        <styleUrl>#icon-159</styleUrl>
+        <Point>
+          <coordinates>
+            -94.248834,35.08083,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Collegeport, Texas</name>
+        <description>le 28/04/2004 - Mâle adulte</description>
+        <styleUrl>#icon-102</styleUrl>
+        <Point>
+          <coordinates>
+            -96.09587,28.631655,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-CC33CC-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -94.74884,36.580247,0
+            -96.094666,28.627925,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Grove, Oklahoma</name>
+        <description>le 09/06/2008 - un parcours de 895 km</description>
+        <styleUrl>#icon-102</styleUrl>
+        <Point>
+          <coordinates>
+            -94.752159,36.583527,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Auburn, Alabama</name>
+        <description>le 07/09/2005 - Jeune mâle</description>
+        <styleUrl>#icon-157</styleUrl>
+        <Point>
+          <coordinates>
+            -85.583324,32.583249,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-FFCC00-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -92.918587,32.917638,0
+            -85.584183,32.583271,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Summerfield, Louisiane</name>
+        <description>le 09/09/2007 - un parcours de 688 km</description>
+        <styleUrl>#icon-157</styleUrl>
+        <Point>
+          <coordinates>
+            -92.918276,32.917048,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Brazoria, Texas</name>
+        <description>le 02/10/2005 - Jeune mâle</description>
+        <styleUrl>#icon-164</styleUrl>
+        <Point>
+          <coordinates>
+            -95.589882,29.075681,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-33CCFF-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -87.323456,35.434939,0
+            -95.596161,29.082576,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Summertown, Tennesse</name>
+        <description>le 30/04/2007 - un parcours de 1050 km</description>
+        <styleUrl>#icon-164</styleUrl>
+        <Point>
+          <coordinates>
+            -87.312638,35.433465,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baguée à Woodward, Pennsylvanie</name>
+        <description>le 31/08/2008 - Femelle adulte</description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            -77.452506,40.847069,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-009900-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -77.470093,40.842905,0
+            -97.077942,28.749601,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturée à Victoria, Texas</name>
+        <description>le 06/10/2009 - un parcours de 2232 km</description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            -97.079145,28.747673,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baguée à Victoria, Texas</name>
+        <description>le 11/09/2005 - Femelle adulte</description>
+        <styleUrl>#icon-165</styleUrl>
+        <Point>
+          <coordinates>
+            -97.003598,28.805267,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-CC33CC-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -85.833435,40.797177,0
+            -97.009277,28.80136,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturée à Wabash, Indiana</name>
+        <description>le 28/09/2010 - un parcours de 1680 km</description>
+        <styleUrl>#icon-165</styleUrl>
+        <Point>
+          <coordinates>
+            -85.820541,40.797821,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baguée à Covington, Louisiane</name>
+        <description>le 12/01/2005 - Hivernant femelle SY</description>
+        <styleUrl>#icon-166</styleUrl>
+        <Point>
+          <coordinates>
+            -90.100911,30.47547,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-663366-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -98.032379,50.504693,0
+            -90.109863,30.474716,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Retrouvée morte à Oak Point, Manitoba</name>
+        <description>le 09/09/2005 - un parcours de 2325 km</description>
+        <styleUrl>#icon-166</styleUrl>
+        <Point>
+          <coordinates>
+            -98.028268,50.505948,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baguée à Victoria, Texas</name>
+        <description>le 08/09/2005 - Jeune femelle</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -97.079145,28.747673,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-0000FF-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -92.087402,35.915747,0
+            -97.083435,28.741172,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturée à Mountain View, Arkansas</name>
+        <description>le 12/09/2006 - un parcours de 926 km</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -92.085307,35.918347,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baguée à Christoval, Texas</name>
+        <description>le 18/08/2004 - Femelle adulte</description>
+        <styleUrl>#icon-161</styleUrl>
+        <Point>
+          <coordinates>
+            -100.424572,31.082697,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-009900-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -97.978821,35.053608,0
+            -100.431519,31.090574,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturée à Chickasha, Oklahoma</name>
+        <description>le 28/04/2007 - un parcours de 500 km</description>
+        <styleUrl>#icon-161</styleUrl>
+        <Point>
+          <coordinates>
+            -97.971236,35.051836,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baguée à Christoval, Texas</name>
+        <description>le 14/09/2007 - Jeune femelle</description>
+        <styleUrl>#icon-167</styleUrl>
+        <Point>
+          <coordinates>
+            -100.424572,31.082697,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-FF0000-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -96.394043,48.253941,0
+            -100.43014,31.08704,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturée à Newfolden, Minnesota</name>
+        <description>le 18/08/2008 - un parcours de 1943 km</description>
+        <styleUrl>#icon-167</styleUrl>
+        <Point>
+          <coordinates>
+            -96.255404,48.249268,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baguée à Rockport, Texas</name>
+        <description>le15/09/2006 - Femelle adulte</description>
+        <styleUrl>#icon-168</styleUrl>
+        <Point>
+          <coordinates>
+            -97.081785,28.080108,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-FFCC00-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -82.42492,35.42039,0
+            -97.081375,28.085309,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturée à Hendersonville, Caroline du Nord</name>
+        <description>le 21/06/2009 - un parcours de 1610 km</description>
+        <styleUrl>#icon-168</styleUrl>
+        <Point>
+          <coordinates>
+            -82.412524,35.417978,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Brazoria, Texas</name>
+        <description>le 18/09/2006 - Mâle adulte</description>
+        <styleUrl>#icon-165</styleUrl>
+        <Point>
+          <coordinates>
+            -95.589882,29.075681,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-CC33CC-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -84.786987,34.583475,0
+            -95.594788,29.078976,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Ranger, Georgie</name>
+        <description>le 01/05/2007 - un parcours de 1190 km</description>
+        <styleUrl>#icon-165</styleUrl>
+        <Point>
+          <coordinates>
+            -84.749188,34.583474,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baguée à Jay, Oklahama</name>
+        <description>le 08/07/1983 - Femelle adulte</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -94.751329,36.412348,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-0000FF-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -94.746094,36.408021,0
+            -99.08844,30.078601,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturée à Kerrville, Texas</name>
+        <description>le 16/09/1985 - un parcours de 812 km</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -99.083738,30.083424,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baguée à Montrose, Virginie occidentale</name>
+        <description>le 03/08/2006 - Femelle adulte</description>
+        <styleUrl>#icon-163</styleUrl>
+        <Point>
+          <coordinates>
+            -79.734258,39.08094,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-339999-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -79.588257,39.044786,0
+            -86.663452,33.651208,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturée à Springville, Alabama</name>
+        <description>le 28/05/2007 - un parcours de 873 km</description>
+        <styleUrl>#icon-163</styleUrl>
+        <Point>
+          <coordinates>
+            -86.583146,33.750182,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Lawrence, Kansas</name>
+        <description>le 07/09/1995 - Jeune mâle</description>
+        <styleUrl>#icon-166</styleUrl>
+        <Point>
+          <coordinates>
+            -95.409724,38.914577,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-663366-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -95.759583,46.750212,0
+            -95.413513,38.915613,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Frazee, Minesota</name>
+        <description>le 09/06/1996 - un parcours de 873 km</description>
+        <styleUrl>#icon-166</styleUrl>
+        <Point>
+          <coordinates>
+            -95.754159,46.750707,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Virginia Beach, Virginie</name>
+        <description>le10/05/1998 - Mâle adulte</description>
+        <styleUrl>#icon-161</styleUrl>
+        <Point>
+          <coordinates>
+            -75.923801,36.566377,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-006600-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -71.254578,43.58238,0
+            -75.927887,36.565909,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Wolfeboro, New Hamshire</name>
+        <description>le 19/05/1998 - un parcours de 876 km</description>
+        <styleUrl>#icon-161</styleUrl>
+        <Point>
+          <coordinates>
+            -71.248688,43.582516,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Grove, Oklahoma</name>
+        <description>le 28/08/1992 - Mâle adulte</description>
+        <styleUrl>#icon-166</styleUrl>
+        <Point>
+          <coordinates>
+            -94.752159,36.583527,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-6600CC-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -92.422485,46.750212,0
+            -94.746094,36.597889,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Cloquet, Minnesota</name>
+        <description>le 22/06/1993 - un parcours de 1146</description>
+        <styleUrl>#icon-166</styleUrl>
+        <Point>
+          <coordinates>
+            -92.416606,46.750359,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Seymour, Tennessee</name>
+        <description>le 10/09/2006 - Jeune mâle</description>
+        <styleUrl>#icon-164</styleUrl>
+        <Point>
+          <coordinates>
+            -83.748215,35.913265,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-33CCFF-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -83.792725,35.911298,0
+            -89.725342,30.670991,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Carriere, Mississipi</name>
+        <description>le 16/09/2006 - un parcours de 803 km</description>
+        <styleUrl>#icon-164</styleUrl>
+        <Point>
+          <coordinates>
+            -89.68826,30.668576,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Rockport, Texas</name>
+        <description>le 16/09/2006 - Jeune mâle</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -97.117767,27.992582,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-0000FF-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -83.97949,33.95703,0
+            -97.116394,27.995614,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Lawrenceville, Georgie</name>
+        <description>le 17/07/2008 - un parcours de 1420 km</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -83.995972,33.938803,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baguée à Victoria, Texas</name>
+        <description>le 21/09/2006 - Jeune femelle</description>
+        <styleUrl>#icon-165</styleUrl>
+        <Point>
+          <coordinates>
+            -97.015285,28.808129,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-CC0000-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -92.416992,36.337253,0
+            -97.016487,28.807979,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturée à Mountain Home, Arkansas</name>
+        <description>le 30 août 2007 - un parcours de 945 km</description>
+        <styleUrl>#icon-165</styleUrl>
+        <Point>
+          <coordinates>
+            -92.381458,36.334488,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>   </name>
+        <styleUrl>#line-FFFFFF-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -94.972687,24.126702,0
+            -94.269562,24.487149,0
+            -94.269562,24.527135,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Grove, Oklahoma</name>
+        <description>le 06/09/2011 - mâle adulte</description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            -94.761543,36.587966,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Grove, Oklahoma</name>
+        <description>le 06/09/2011 - Mâle adulte</description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            -94.762573,36.587966,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-33CC00-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -90.580902,43.766135,0
+            -94.761887,36.587139,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Norwalk, Wisconsin</name>
+        <description>le 15/05/2012 - un parcours de 875 km</description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            -90.549316,43.786958,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Victoria au Texas</name>
+        <description>le 05/10/2006 - Jeune mâle</description>
+        <styleUrl>#icon-161</styleUrl>
+        <Point>
+          <coordinates>
+            -97.105408,28.71227,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-009900-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -97.106094,28.709861,0
+            -90.561676,44.963826,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Owen, Wisconsin</name>
+        <description>le 30/05/2007 - un parcours de 1900 km</description>
+        <styleUrl>#icon-161</styleUrl>
+        <Point>
+          <coordinates>
+            -90.565839,44.948095,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baguée à Covington, Louisiane</name>
+        <description>le 05/10/2008 - Jeune femelle</description>
+        <styleUrl>#icon-166</styleUrl>
+        <Point>
+          <coordinates>
+            -90.100851,30.474346,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-6600CC-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -95.47531,29.05977,0
+            -90.105743,30.474716,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturée à Lake Jackson, Texas</name>
+        <description>le 11/10/2008 - un parcours de 540 km</description>
+        <styleUrl>#icon-166</styleUrl>
+        <Point>
+          <coordinates>
+            -95.472565,29.059771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Fenton, Missouri</name>
+        <description>le 30/07/2008 - Mâle adulte</description>
+        <styleUrl>#icon-102</styleUrl>
+        <Point>
+          <coordinates>
+            -90.468807,38.504721,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-FF0000-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -90.450439,38.496594,0
+            -95.476685,31.494262,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Grapeland, Texas</name>
+        <description>le 24/08/2008 - un parcours de 945 km</description>
+        <styleUrl>#icon-102</styleUrl>
+        <Point>
+          <coordinates>
+            -95.478573,31.491773,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Havre de Grace, Maryland</name>
+        <description>le 16/08/2008 - Jeune mâle</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -76.092339,39.548927,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-0000FF-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -76.080322,39.554883,0
+            -95.440979,29.017748,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Lake Jackson, Texas</name>
+        <description>le 30/09/2011 - un parcours de 2125 km</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -95.435314,29.032308,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baguée à Lecompte, Louisiane</name>
+        <description>le 14/09/2007 - Jeune femelle</description>
+        <styleUrl>#icon-101</styleUrl>
+        <Point>
+          <coordinates>
+            -92.400599,31.093992,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-CC33CC-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -95.449219,29.769146,0
+            -92.399139,31.09175,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturée à Houston, Texas</name>
+        <description>le 13/09/2008 - un parcours de 330 km</description>
+        <styleUrl>#icon-101</styleUrl>
+        <Point>
+          <coordinates>
+            -95.449219,29.769146,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Grove, Oklahoma</name>
+        <description>le 23/09/2008 - Jeune mâle</description>
+        <styleUrl>#icon-164</styleUrl>
+        <Point>
+          <coordinates>
+            -94.770212,36.594719,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-00CCCC-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -89.34082,43.81471,0
+            -94.776993,36.595684,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Montello, Wisconsin</name>
+        <description>le 28/06/2009 - un parcours de 930 km</description>
+        <styleUrl>#icon-164</styleUrl>
+        <Point>
+          <coordinates>
+            -89.318419,43.791698,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Lake Jackson, Texas</name>
+        <description>le 27/04/2011 - Mâle adulte</description>
+        <styleUrl>#icon-165</styleUrl>
+        <Point>
+          <coordinates>
+            -95.339355,29.032158,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-CC33CC-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -93.729858,41.779505,0
+            -95.350342,29.034559,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Polk City, Iowa</name>
+        <description>le 22/07/2012 - un parcours de 1425 km</description>
+        <styleUrl>#icon-165</styleUrl>
+        <Point>
+          <coordinates>
+            -93.716125,41.77592,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Wadmalaw Island, Caroline du Sud</name>
+        <description>le 10/09/2011 - Mâle adulte</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -80.189896,32.60294,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-0000FF-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -80.190582,32.601205,0
+            -81.085453,29.262441,0
+            -81.085968,29.275618,0
+            -81.07996,29.252856,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Ormond Beach, Floride</name>
+        <description>le 21/02/2013 - un parcours de 385 km</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -81.083908,29.276217,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Covington, Louisiane</name>
+        <description>le 09/09/2011 - Jeune mâle</description>
+        <styleUrl>#icon-124</styleUrl>
+        <Point>
+          <coordinates>
+            -90.11879,30.481225,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-FF0000-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -85.145416,33.369531,0
+            -90.119476,30.47945,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Franklin, Georgie</name>
+        <description>le 18/07/2013 - un parcours de 570 km</description>
+        <styleUrl>#icon-124</styleUrl>
+        <Point>
+          <coordinates>
+            -85.140781,33.367022,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bagué à Metairie, Louisiane</name>
+        <description>le 17/12/2011 - Jeune mâle</description>
+        <styleUrl>#icon-158</styleUrl>
+        <Point>
+          <coordinates>
+            -90.157757,29.994638,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trajectoire</name>
+        <styleUrl>#line-009900-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -84.328995,30.461696,0
+            -90.156984,29.990623,0
+            -90.157242,29.994786,0
+            -90.156984,29.988245,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Recapturé à Tallahassee, Floride</name>
+        <description>le 12/01/2012 - un parcours de 564 km</description>
+        <styleUrl>#icon-158</styleUrl>
+        <Point>
+          <coordinates>
+            -84.328995,30.460512,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
